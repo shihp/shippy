@@ -3,8 +3,8 @@ import (
 	"fmt"
 	"log"
 
-	pb "consignment-service/proto/consignment"
-	vesselProto "vessel-service/proto/vessel"
+	pb "shippy/consignment-service/proto/consignment"
+	vesselProto "shippy/vessel-service/proto/vessel"
 	micro "github.com/micro/go-micro"
 	"golang.org/x/net/context"
 )
