@@ -3,7 +3,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	pb "shippy/vessel-service/proto/vessel"
+	pb "github.com/shihp/shippy/vessel-service/proto/vessel"
 	"github.com/micro/go-micro"
 )
 type Repository interface {
